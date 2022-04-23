@@ -24,6 +24,7 @@
 		64F69EC625EBF17500210277 /* UpcomingRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F69EC525EBF17500210277 /* UpcomingRoomModel.swift */; };
 		D02572B02814BE4F004F1C1B /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572AF2814BE4F004F1C1B /* HomeHeaderView.swift */; };
 		D02572B32814C031004F1C1B /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */; };
+		D02572B52814C436004F1C1B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B42814C436004F1C1B /* RoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		64F69EC525EBF17500210277 /* UpcomingRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomModel.swift; sourceTree = "<group>"; };
 		D02572AF2814BE4F004F1C1B /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
+		D02572B42814C436004F1C1B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */,
+				D02572B42814C436004F1C1B /* RoomView.swift */,
 			);
 			path = HomeFeed;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				D02572B02814BE4F004F1C1B /* HomeHeaderView.swift in Sources */,
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
 				64DAE7E625F282DE000E50C2 /* RoomViewModel.swift in Sources */,
+				D02572B52814C436004F1C1B /* RoomView.swift in Sources */,
 				64F69E9325EBCB1700210277 /* ClubhouseApp.swift in Sources */,
 				D02572B32814C031004F1C1B /* UpcomingRoomsView.swift in Sources */,
 			);

@@ -47,17 +47,8 @@ struct GroupRoomView: View {
             VStack(alignment: .leading) {
                 
                 if let groupName = upcomingRoom.groupName {
-                    
-                    HStack {
-                        Text(groupName.uppercased())
-                            .font(Font.Nunito.bold(size: 8))
-                            .foregroundColor(Color.textBlack)
-                        Image
-                            .home
-                            .font(Font.Nunito.bold(size: 10))
-                            .foregroundColor(Color.green)
-                    }
-                    .padding(.top, 1)
+
+                    CurrentGroupView(groupName: groupName)
                 }
                 
                 Text(upcomingRoom.roomName)
@@ -66,6 +57,26 @@ struct GroupRoomView: View {
                     .foregroundColor(Color.textBlack)
             }
         }
+    }
+}
+
+// MARK: - CurrentGroupView
+
+struct CurrentGroupView: View {
+    
+    let groupName: String
+    
+    var body: some View {
+        HStack {
+            Text(groupName.uppercased())
+                .font(Font.Nunito.bold(size: 8))
+                .foregroundColor(Color.textBlack)
+            Image
+                .home
+                .font(Font.Nunito.bold(size: 10))
+                .foregroundColor(Color.green)
+        }
+        .padding(.top, 1)
     }
 }
 
