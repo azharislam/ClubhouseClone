@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct UpcomingRoomsView: View {
+    
+    let upcomingRooms: [UpcomingRoom]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(alignment: .leading,
+               spacing: 8) {
+            ForEach(upcomingRooms) { room in
+                GroupRoomView(upcomingRoom: room)
+            }
+        }
+               .padding(.vertical, 15)
+               .padding(.leading, 35)
+               .padding(.trailing, 15)
+               .frame(maxWidth: .infinity,
+                      alignment: .leading)
+               .background(Color.customSecondaryBackground)
+               .cornerRadius(18)
+               .padding(.horizontal, 15)
     }
 }
 
@@ -21,12 +38,13 @@ struct GroupRoomView: View {
     
     var body: some View {
         
-        HStack {
+        HStack(alignment: .top, spacing: 10) {
+            
             Text(upcomingRoom.date, style: .time)
                 .font(Font.Nunito.semiBold(size: 10))
                 .foregroundColor(Color.textYellow)
             
-            VStack {
+            VStack(alignment: .leading) {
                 
                 if let groupName = upcomingRoom.groupName {
                     
@@ -39,6 +57,7 @@ struct GroupRoomView: View {
                             .font(Font.Nunito.bold(size: 10))
                             .foregroundColor(Color.green)
                     }
+                    .padding(.top, 1)
                 }
                 
                 Text(upcomingRoom.roomName)
@@ -54,9 +73,10 @@ struct GroupRoomView: View {
 struct UpcomingRoomsView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            UpcomingRoomsView()
             GroupRoomView(upcomingRoom:
                             UpcomingRoom.dummyData[0])
+            .previewLayout(.sizeThatFits)
+            UpcomingRoomsView(upcomingRooms: UpcomingRoom.dummyData)
                 .previewLayout(.sizeThatFits)
         }
     }
