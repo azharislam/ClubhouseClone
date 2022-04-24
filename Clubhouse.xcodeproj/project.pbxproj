@@ -25,6 +25,7 @@
 		D02572B02814BE4F004F1C1B /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572AF2814BE4F004F1C1B /* HomeHeaderView.swift */; };
 		D02572B32814C031004F1C1B /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */; };
 		D02572B52814C436004F1C1B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B42814C436004F1C1B /* RoomView.swift */; };
+		D02572B72814C9FC004F1C1B /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B62814C9FC004F1C1B /* BottomHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		D02572AF2814BE4F004F1C1B /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
 		D02572B42814C436004F1C1B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		D02572B62814C9FC004F1C1B /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */,
 				D02572B42814C436004F1C1B /* RoomView.swift */,
+				D02572B62814C9FC004F1C1B /* BottomHomeView.swift */,
 			);
 			path = HomeFeed;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				64F69EBB25EBDF1900210277 /* Font.swift in Sources */,
 				64F69EA825EBD0F600210277 /* Image.swift in Sources */,
 				649A681925ED50EC00F52336 /* FeedRoom.swift in Sources */,
+				D02572B72814C9FC004F1C1B /* BottomHomeView.swift in Sources */,
 				640E0C4825EE92D9002B4102 /* FeedItem.swift in Sources */,
 				D02572B02814BE4F004F1C1B /* HomeHeaderView.swift in Sources */,
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
