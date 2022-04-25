@@ -26,6 +26,7 @@
 		D02572B32814C031004F1C1B /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */; };
 		D02572B52814C436004F1C1B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B42814C436004F1C1B /* RoomView.swift */; };
 		D02572B72814C9FC004F1C1B /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B62814C9FC004F1C1B /* BottomHomeView.swift */; };
+		D02572B928161D83004F1C1B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B828161D83004F1C1B /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D02572B22814C031004F1C1B /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
 		D02572B42814C436004F1C1B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		D02572B62814C9FC004F1C1B /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
+		D02572B828161D83004F1C1B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				D02572AF2814BE4F004F1C1B /* HomeHeaderView.swift */,
+				D02572B828161D83004F1C1B /* ProfileHeaderView.swift */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
 				64DAE7E625F282DE000E50C2 /* RoomViewModel.swift in Sources */,
 				D02572B52814C436004F1C1B /* RoomView.swift in Sources */,
+				D02572B928161D83004F1C1B /* ProfileHeaderView.swift in Sources */,
 				64F69E9325EBCB1700210277 /* ClubhouseApp.swift in Sources */,
 				D02572B32814C031004F1C1B /* UpcomingRoomsView.swift in Sources */,
 			);
