@@ -27,6 +27,7 @@
 		D02572B52814C436004F1C1B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B42814C436004F1C1B /* RoomView.swift */; };
 		D02572B72814C9FC004F1C1B /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B62814C9FC004F1C1B /* BottomHomeView.swift */; };
 		D02572B928161D83004F1C1B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572B828161D83004F1C1B /* ProfileHeaderView.swift */; };
+		D02572BC28161E3F004F1C1B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02572BB28161E3F004F1C1B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		D02572B42814C436004F1C1B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		D02572B62814C9FC004F1C1B /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
 		D02572B828161D83004F1C1B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		D02572BB28161E3F004F1C1B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		D02572AD2814BE3F004F1C1B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D02572BA28161E36004F1C1B /* Profile */,
 				D02572B12814C016004F1C1B /* HomeFeed */,
 				D02572AE2814BE45004F1C1B /* Headers */,
 			);
@@ -171,6 +174,14 @@
 				D02572B62814C9FC004F1C1B /* BottomHomeView.swift */,
 			);
 			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		D02572BA28161E36004F1C1B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D02572BB28161E3F004F1C1B /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 				649A681925ED50EC00F52336 /* FeedRoom.swift in Sources */,
 				D02572B72814C9FC004F1C1B /* BottomHomeView.swift in Sources */,
 				640E0C4825EE92D9002B4102 /* FeedItem.swift in Sources */,
+				D02572BC28161E3F004F1C1B /* ProfileView.swift in Sources */,
 				D02572B02814BE4F004F1C1B /* HomeHeaderView.swift in Sources */,
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
 				64DAE7E625F282DE000E50C2 /* RoomViewModel.swift in Sources */,
